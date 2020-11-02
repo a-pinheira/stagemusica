@@ -21,6 +21,7 @@ public class MusicService {
 	private static final String cURL = "https://www.googleapis.com/auth/yt-analytics.readonly";
     private static final String KEY = "AIzaSyCcQVbfk4dTfvg5Weo76PqhT1LrbQMTARk";
     private static final String PART = "snippet,contentDetails,statistics,status";
+    //private static final String PART = "snippet,contentDetails,statistics,status";
 
 	
 	//Busca/recupera todos os musicos
