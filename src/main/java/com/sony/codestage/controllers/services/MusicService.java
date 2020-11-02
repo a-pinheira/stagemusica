@@ -17,6 +17,11 @@ import com.sony.codestage.models.entities.Music;
 public class MusicService {
 	
 	private MusicRepository repository;
+	//private static final String API_URL = "https://www.googleapis.com/youtube/v3/channels";
+	private static final String cURL = "https://www.googleapis.com/auth/yt-analytics.readonly";
+    private static final String KEY = "AIzaSyCcQVbfk4dTfvg5Weo76PqhT1LrbQMTARk";
+    private static final String PART = "snippet,contentDetails,statistics,status";
+
 	
 	//Busca/recupera todos os musicos
 		public List<Music> findAll(){
